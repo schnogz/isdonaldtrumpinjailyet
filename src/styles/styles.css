@@ -1,0 +1,38 @@
+html, body > div {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-image: url(../images/bg.jpg) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+  overflow: hidden;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+.message {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.6);
+  padding: 0.5em;
+}
+.text {
+  color: #fff;
+  font-size: 2.8rem;
+  margin: 18px 0;
+}

@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123140633-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-123140633-1');
+    </script>
     <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
@@ -20,31 +29,13 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <meta name="description" content="Is Donald Trump In Jail Yet?">
+    <meta name="description" content="Conspiracy, money laundering, fraud and treason are crimes that Donald Trump will eventually serve time for!">
     <title>Is Donald Trump In Jail Yet?</title>
-    <style>
-      html, body, #app, #app > div {
-        padding: 0;
-        margin: 0;
-        height: 100%;
-        background-color: #f2f2f2;
-      }
-      body {
-        overflow: hidden;
-      }
-      .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-    </style>
   </head>
   <body>
-    <div id="app">
-      <div class="container">
-        <div><h1>Not yet...</h1></div>
-        <div><h1>:(</h1></div>
+    <div class="wrapper">
+      <div class="message">
+        <span class="text">Not yet...</span>
       </div>
     </div>
   </body>
